@@ -40,7 +40,7 @@ header {
     background-color: lightgreen;
     
     height: 200px;
-    flex: 2 -1 auto;
+    flex: 1 1 auto;
 }
 
 .box3 {
@@ -57,6 +57,9 @@ header {
 .section-two {
     background-color: orangered;
     height: 700px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
 
 }
 
@@ -65,6 +68,11 @@ header {
 .section-three {
     background-color: lightcoral;
     height: 800px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
 
 }
 
@@ -79,7 +87,20 @@ iframe {
 .section-four {
     background-color: darkslateblue;
     height: 500px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
     
+}
+
+figcaption{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    margin: 0px 3px;
+    text-align: center;
+
 }
 
 /* section 5 media items */
@@ -119,5 +140,12 @@ li{
     border: 1px solid limegreen;
     border-radius: 10px;
     background-color: aliceblue;
+}
+
+.media-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 15px 25px 15px 15px;
 
 }
